@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "activities",
+  "info": {
+    "name": "activity",
+    "description": "This holds all the data for the activities defined over the path /activity"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "priorityval": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "pdp_dashboard",
+  "version": "1.0.0",
+  "description": "A product development portal dashboard with the provided functionalities to update the tasks, upload data files etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saurabh Dimri",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react-router-dom": "^5.1.2"
+  }
+}
